@@ -1,0 +1,278 @@
+
+Exactly. We should not manually rig 5,000+ assets, and we should not ask an AI to deeply analyze every asset upfront.
+
+The system must use a tiered asset strategy.
+
+The core rule
+Index everything. Rig only what needs interaction.
+
+Most assets never need internal animation.
+
+A cloud does not need a rig.
+A background tree does not need a rig.
+A distant building does not need a rig.
+A person carrying a bucket does need a rig.
+A fire extinguisher spraying does need a rig.
+
+1. What happens to all 5,000+ images?
+The indexer performs a fast first-pass scan.
+
+It records lightweight information:
+
+filename
+folder
+SVG dimensions
+groups and paths
+colors
+stroke style
+likely category
+likely visual family
+whether it appears to be a complete object
+whether it appears to contain multiple parts
+whether it is likely interactive
+This does not require detailed human identification.
+
+The result is a searchable catalog.
+
+The system does not immediately try to identify every head, hand, leg, handle, or joint.
+
+2. How does the system know what to build?
+It uses an asset capability classification.
+
+Each asset is assigned one of these levels.
+
+Level 1: Static asset
+No internal animation needed.
+
+Examples:
+
+cloud
+tree
+mountain
+background building
+rock
+distant scenery
+simple decoration
+Action:
+
+Level 2: Whole-object transform asset
+The object can move, scale, rotate, or fade as one unit.
+
+Examples:
+
+ball
+simple sign
+complete car moving across the screen
+cloud drifting
+flame appearing
+simple house entering the scene
+Action:
+
+Level 3: Interaction asset
+The object may attach to another object or react to an action.
+
+Examples:
+
+bucket
+box
+phone
+cup
+tool
+fire extinguisher
+umbrella
+door
+Action:
+
+Level 4: Character or articulated asset
+The asset needs multiple independent body parts.
+
+Examples:
+
+human
+animal
+robot
+complex machine
+vehicle with moving parts
+Action:
+
+This gives us a practical rule:
+
+3. Does the system decide this automatically?
+Partially.
+
+The initial classification can use several signals.
+
+Signal 1: Folder and filename
+Examples:
+
+These provide useful hints.
+
+Signal 2: Asset collection type
+If an asset comes from a character collection, it is more likely to require rigging.
+
+If it comes from a background icon collection, it is more likely to be static.
+
+Signal 3: SVG complexity
+The indexer checks:
+
+number of groups
+number of paths
+separate bounding regions
+IDs
+transforms
+repeated components
+likely movable elements
+A multi-part character is more likely to be riggable than a single-path cloud.
+
+Signal 4: Semantic category
+The system can classify an asset as:
+
+Signal 5: Requested scene behavior
+This is the most important signal.
+
+If a scene only needs:
+
+the tree does not need a rig.
+
+If a scene needs:
+
+then the person and axe need interaction support.
+
+The required behavior determines what must be built.
+
+4. Do we build assets only when a project requests them?
+Yes. This is the best approach.
+
+This is called demand-driven rigging.
+
+The system does not pre-rig everything.
+
+Example
+The library has 5,000 assets.
+
+The first user request is:
+
+The system searches for:
+
+compatible person
+compatible bucket
+house
+fire
+water effect
+It then determines:
+
+Only those required components enter the build queue.
+
+This is much more efficient than processing everything deeply.
+
+5. What if the selected asset is not riggable?
+The system should not force it.
+
+It should evaluate the asset and choose one of four options:
+
+Option A: Use it as-is
+If the requested action does not require internal movement.
+
+Option B: Use a simpler compatible asset
+If another asset already has the required rig.
+
+Option C: Build a rig for it
+If the asset is valuable and reusable.
+
+Option D: Rebuild a clean reusable version
+If the original asset is too tangled or incompatible.
+
+The system should produce a decision such as:
+
+It should never silently produce a broken animation.
+
+6. What does “build” actually mean?
+There are different levels of building.
+
+Metadata only
+Record:
+
+name
+category
+dimensions
+style
+bounding box
+default anchor
+compatibility
+Basic anchor preparation
+Add:
+
+bottom
+center
+attachment point
+target point
+pivot
+Partial rigging
+Separate only what is needed.
+
+For a bucket:
+
+For a fire extinguisher:
+
+Full rigging
+Required for articulated objects:
+
+head
+torso
+limbs
+joints
+hands
+feet
+pose definitions
+animation cycles
+The system should always choose the minimum required complexity.
+
+7. How do we avoid AI analyzing everything?
+AI should be used selectively.
+
+The indexer can handle the cheap, mechanical work:
+
+scan files
+read SVG structure
+extract dimensions
+extract groups
+identify filename clues
+calculate bounding boxes
+group visual styles
+AI is only called when:
+
+the filename is ambiguous
+the asset is requested for a scene
+the asset needs semantic description
+the asset may need rigging
+the system needs to choose between similar assets
+So AI operates on demand, not across the entire library.
+
+8. How does the system decide whether an object needs a rig?
+The scene plan declares the required behavior.
+
+For every asset, the system asks:
+
+Examples:
+
+Cloud
+Bucket carried by person
+Person walking
+Fire
+Background house
+9. The correct build pipeline
+Final answer
+We do not manually identify 5,000 images.
+
+We do not ask AI to deeply understand every image.
+
+We do this:
+
+The system decides what to build using:
+
+The most important rule is:
+
+Build behavior, not assets.
+
+We do not build a rig just because an asset exists. We build a rig because a story requires that asset to walk, hold, open, throw, pour, swing, spray, or react.
+
