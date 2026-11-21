@@ -1,0 +1,12 @@
+# This file records the segment order used by Manim.
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/93b3bbe05a56bd5fce40f2fd29db9aac17f4d7cec181fad78d293ee76c629eef.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/9918f797f6b1f6cdbe5312d2ea59e9705e0d76fff5de6eb5fc7b2332d0e1ce43.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/bb38f14731f1ab92e4375deab9a665cd1fb9d93e43a828a15a801229bb025ed8.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/24b4c3f806ad130c1a5d11b8e0b6bbe0342102a6204c3b3732b991726fd195f1.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/d957537e773c98facb3269aadb94268e720185147f890a729788739062a34203.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/d2b92aeaa2078a1b41e354954c99e23abaded1518b665d28f9fa7ee72e8752dd.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/e0a75819d8945a17a6e22bc184ff49d999051c192d4b5390c56d2c1754428f16.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/81323e9f5d31880895db3426b88ce29c484d99215434a955ec7f6e6721da7a4d.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/001a581b26a37226395ddd9afd2bf31e90aae237c005016f8ebf3fcd2333a9cb.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/7848532fe2f8c95192ed84cb3ffd8cc9bd9872df94a6ccc20e014dc400aa3b2f.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p15/partial_movie_files/DrawingTest/ab6e76b220e54561228acf62f6990e8cc4a05b911933fe3db4bfec76a799ecb5.mp4'

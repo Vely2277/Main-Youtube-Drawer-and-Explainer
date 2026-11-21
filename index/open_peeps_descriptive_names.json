@@ -1,0 +1,2499 @@
+{
+  "source": "Open Peeps",
+  "records": [
+    {
+      "category": "a-person",
+      "original_name": "bust.svg",
+      "descriptive_name": "a-mono-bust-person",
+      "original_relative_path": "assets/svgs/open_peeps/a-person/bust.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/a-person/a-mono-bust-person.svg"
+    },
+    {
+      "category": "a-person",
+      "original_name": "sitting.svg",
+      "descriptive_name": "a-mono-sitting-person",
+      "original_relative_path": "assets/svgs/open_peeps/a-person/sitting.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/a-person/a-mono-sitting-person.svg"
+    },
+    {
+      "category": "a-person",
+      "original_name": "standing.svg",
+      "descriptive_name": "a-mono-standing-person",
+      "original_relative_path": "assets/svgs/open_peeps/a-person/standing.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/a-person/a-mono-standing-person.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Eyepatch.svg",
+      "descriptive_name": "eyepatch",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Eyepatch.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/eyepatch.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Glasses 2.svg",
+      "descriptive_name": "small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Glasses 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Glasses 3.svg",
+      "descriptive_name": "thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Glasses 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Glasses 4.svg",
+      "descriptive_name": "wide-rounded-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Glasses 4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/wide-rounded-clear-eyeglasses.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Glasses 5.svg",
+      "descriptive_name": "mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Glasses 5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Glasses.svg",
+      "descriptive_name": "classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Glasses.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Sunglasses 2.svg",
+      "descriptive_name": "black-oval-lens-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Sunglasses 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/black-oval-lens-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "accessories",
+      "original_name": "Sunglasses.svg",
+      "descriptive_name": "black-wayfarer-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/accessories/Sunglasses.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/accessories/black-wayfarer-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Blazer Black Tee.svg",
+      "descriptive_name": "body-mono-blazer-black-tee-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Blazer Black Tee.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-blazer-black-tee-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Button Shirt 1.svg",
+      "descriptive_name": "body-mono-button-shirt-1-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Button Shirt 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-button-shirt-1-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Button Shirt 2.svg",
+      "descriptive_name": "body-mono-button-shirt-2-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Button Shirt 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-button-shirt-2-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Coffee.svg",
+      "descriptive_name": "body-mono-coffee-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Coffee.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-coffee-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Device.svg",
+      "descriptive_name": "body-mono-device-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Device.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-device-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Dress.svg",
+      "descriptive_name": "body-mono-dress-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Dress.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-dress-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Explaining.svg",
+      "descriptive_name": "body-mono-explaining-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Explaining.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-explaining-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Fur Jacket.svg",
+      "descriptive_name": "body-mono-fur-jacket-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Fur Jacket.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-fur-jacket-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Gaming.svg",
+      "descriptive_name": "body-mono-gaming-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Gaming.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-gaming-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Gym Shirt.svg",
+      "descriptive_name": "body-mono-gym-shirt-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Gym Shirt.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-gym-shirt-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Hoodie.svg",
+      "descriptive_name": "body-mono-hoodie-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Hoodie.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-hoodie-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Killer.svg",
+      "descriptive_name": "body-mono-killer-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Killer.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-killer-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Macbook.svg",
+      "descriptive_name": "body-mono-macbook-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Macbook.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-macbook-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Paper.svg",
+      "descriptive_name": "body-mono-paper-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Paper.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-paper-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Pointing Up.svg",
+      "descriptive_name": "body-mono-pointing-up-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Pointing Up.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-pointing-up-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Polka Dot Jacket.svg",
+      "descriptive_name": "body-mono-polka-dot-jacket-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Polka Dot Jacket.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-polka-dot-jacket-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Polo and Sweater.svg",
+      "descriptive_name": "body-mono-polo-and-sweater-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Polo and Sweater.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-polo-and-sweater-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Shirt and Coat.svg",
+      "descriptive_name": "body-mono-shirt-and-coat-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Shirt and Coat.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-shirt-and-coat-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Sporty Tee.svg",
+      "descriptive_name": "body-mono-sporty-tee-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Sporty Tee.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-sporty-tee-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Striped Pocket Tee.svg",
+      "descriptive_name": "body-mono-striped-pocket-tee-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Striped Pocket Tee.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-striped-pocket-tee-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Striped Tee.svg",
+      "descriptive_name": "body-mono-striped-tee-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Striped Tee.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-striped-tee-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Sweater Dots.svg",
+      "descriptive_name": "body-mono-sweater-dots-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Sweater Dots.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-sweater-dots-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Sweater.svg",
+      "descriptive_name": "body-mono-sweater-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Sweater.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-sweater-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Tee 1.svg",
+      "descriptive_name": "body-mono-tee-1-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Tee 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-tee-1-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Tee 2.svg",
+      "descriptive_name": "body-mono-tee-2-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Tee 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-tee-2-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Tee Arms Crossed.svg",
+      "descriptive_name": "body-mono-tee-arms-crossed-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Tee Arms Crossed.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-tee-arms-crossed-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Tee Selena.svg",
+      "descriptive_name": "body-mono-tee-selena-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Tee Selena.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-tee-selena-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Thunder T-Shirt.svg",
+      "descriptive_name": "body-mono-thunder-t-shirt-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Thunder T-Shirt.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-thunder-t-shirt-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Turtleneck.svg",
+      "descriptive_name": "body-mono-turtleneck-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Turtleneck.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-turtleneck-outfit.svg"
+    },
+    {
+      "category": "body",
+      "original_name": "Whatever.svg",
+      "descriptive_name": "body-mono-whatever-outfit",
+      "original_relative_path": "assets/svgs/open_peeps/body/Whatever.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/body/body-mono-whatever-outfit.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Angry with Fang.svg",
+      "descriptive_name": "face-angry-with-fang-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Angry with Fang.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-angry-with-fang-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Awe.svg",
+      "descriptive_name": "face-awe-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Awe.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-awe-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Blank.svg",
+      "descriptive_name": "face-blank-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Blank.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-blank-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Calm.svg",
+      "descriptive_name": "face-calm-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Calm.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-calm-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Cheeky.svg",
+      "descriptive_name": "face-cheeky-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Cheeky.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-cheeky-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Concerned Fear.svg",
+      "descriptive_name": "face-concerned-fear-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Concerned Fear.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-concerned-fear-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Concerned.svg",
+      "descriptive_name": "face-concerned-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Concerned.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-concerned-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Contempt.svg",
+      "descriptive_name": "face-contempt-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Contempt.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-contempt-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Cute.svg",
+      "descriptive_name": "face-cute-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Cute.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-cute-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Cyclops.svg",
+      "descriptive_name": "face-cyclops-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Cyclops.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-cyclops-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Driven.svg",
+      "descriptive_name": "face-driven-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Driven.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-driven-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Eating Happy.svg",
+      "descriptive_name": "face-eating-happy-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Eating Happy.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-eating-happy-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Explaining.svg",
+      "descriptive_name": "face-explaining-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Explaining.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-explaining-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Eyes Closed.svg",
+      "descriptive_name": "face-eyes-closed-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Eyes Closed.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-eyes-closed-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Fear.svg",
+      "descriptive_name": "face-fear-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Fear.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-fear-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Hectic.svg",
+      "descriptive_name": "face-hectic-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Hectic.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-hectic-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Loving Grin 1.svg",
+      "descriptive_name": "face-loving-grin-1-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Loving Grin 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-loving-grin-1-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Loving Grin 2.svg",
+      "descriptive_name": "face-loving-grin-2-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Loving Grin 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-loving-grin-2-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Monster.svg",
+      "descriptive_name": "face-monster-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Monster.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-monster-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Old.svg",
+      "descriptive_name": "face-old-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Old.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-old-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Rage.svg",
+      "descriptive_name": "face-rage-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Rage.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-rage-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Serious.svg",
+      "descriptive_name": "face-serious-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Serious.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-serious-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Smile Big.svg",
+      "descriptive_name": "face-smile-big-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Smile Big.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-smile-big-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Smile LOL.svg",
+      "descriptive_name": "face-smile-lol-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Smile LOL.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-smile-lol-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Smile Teeth Gap.svg",
+      "descriptive_name": "face-smile-teeth-gap-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Smile Teeth Gap.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-smile-teeth-gap-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Smile.svg",
+      "descriptive_name": "face-smile-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Smile.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-smile-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Solemn.svg",
+      "descriptive_name": "face-solemn-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Solemn.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-solemn-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Suspicious.svg",
+      "descriptive_name": "face-suspicious-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Suspicious.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-suspicious-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Tired.svg",
+      "descriptive_name": "face-tired-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Tired.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-tired-face.svg"
+    },
+    {
+      "category": "face",
+      "original_name": "Very Angry.svg",
+      "descriptive_name": "face-very-angry-face",
+      "original_relative_path": "assets/svgs/open_peeps/face/Very Angry.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/face/face-very-angry-face.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Chin.svg",
+      "descriptive_name": "chinstrap-beard",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Chin.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/chinstrap-beard.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Full 2.svg",
+      "descriptive_name": "bushy-short-full-beard-and-moustache-beard-and-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Full 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/bushy-short-full-beard-and-moustache-beard-and-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Full 3.svg",
+      "descriptive_name": "rounded-short-full-beard-and-moustache-beard",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Full 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/rounded-short-full-beard-and-moustache-beard.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Full 4.svg",
+      "descriptive_name": "outlined-short-full-beard-and-moustache-beard",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Full 4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/outlined-short-full-beard-and-moustache-beard.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Full.svg",
+      "descriptive_name": "short-full-beard-and-moustache-short-beard-and-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Full.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/short-full-beard-and-moustache-short-beard-and-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Goatee 1.svg",
+      "descriptive_name": "narrow-goatee-with-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Goatee 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/narrow-goatee-with-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Goatee 2.svg",
+      "descriptive_name": "round-goatee-with-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Goatee 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/round-goatee-with-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 1.svg",
+      "descriptive_name": "thin-curved-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/thin-curved-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 2.svg",
+      "descriptive_name": "thick-curved-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/thick-curved-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 3.svg",
+      "descriptive_name": "slim-pencil-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/slim-pencil-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 4.svg",
+      "descriptive_name": "wide-two-part-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/wide-two-part-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 5.svg",
+      "descriptive_name": "wide-flat-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/wide-flat-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 6.svg",
+      "descriptive_name": "small-upturned-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/small-upturned-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 7.svg",
+      "descriptive_name": "thin-wavy-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/thin-wavy-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 8.svg",
+      "descriptive_name": "thin-long-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 8.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/thin-long-moustache.svg"
+    },
+    {
+      "category": "facial-hair",
+      "original_name": "Moustache 9.svg",
+      "descriptive_name": "thin-slim-moustache",
+      "original_relative_path": "assets/svgs/open_peeps/facial-hair/Moustache 9.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/facial-hair/thin-slim-moustache.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Afro.svg",
+      "descriptive_name": "head-mono-afro-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Afro.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-afro-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Bangs 2.svg",
+      "descriptive_name": "head-mono-bangs-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Bangs 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-bangs-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Bangs.svg",
+      "descriptive_name": "head-mono-bangs-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Bangs.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-bangs-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Bantu Knots.svg",
+      "descriptive_name": "head-mono-bantu-knots-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Bantu Knots.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-bantu-knots-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Bear.svg",
+      "descriptive_name": "head-mono-bear-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Bear.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-bear-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Bun 2.svg",
+      "descriptive_name": "head-mono-bun-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Bun 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-bun-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Bun.svg",
+      "descriptive_name": "head-mono-bun-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Bun.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-bun-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Buns.svg",
+      "descriptive_name": "head-mono-buns-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Buns.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-buns-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Cornrows 2.svg",
+      "descriptive_name": "head-mono-cornrows-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Cornrows 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-cornrows-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Cornrows.svg",
+      "descriptive_name": "head-mono-cornrows-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Cornrows.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-cornrows-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Flat Top Long.svg",
+      "descriptive_name": "head-mono-flat-top-long-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Flat Top Long.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-flat-top-long-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Flat Top.svg",
+      "descriptive_name": "head-mono-flat-top-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Flat Top.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-flat-top-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Gray Bun.svg",
+      "descriptive_name": "head-mono-gray-bun-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Gray Bun.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-gray-bun-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Gray Medium.svg",
+      "descriptive_name": "head-mono-gray-medium-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Gray Medium.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-gray-medium-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Gray Short.svg",
+      "descriptive_name": "head-mono-gray-short-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Gray Short.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-gray-short-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "hat-beanie.svg",
+      "descriptive_name": "head-mono-hat-beanie-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/hat-beanie.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-hat-beanie-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "hat-hip.svg",
+      "descriptive_name": "head-mono-hat-hip-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/hat-hip.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-hat-hip-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Hijab.svg",
+      "descriptive_name": "head-mono-hijab-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Hijab.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-hijab-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Long Afro.svg",
+      "descriptive_name": "head-mono-long-afro-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Long Afro.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-long-afro-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Long Bangs.svg",
+      "descriptive_name": "head-mono-long-bangs-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Long Bangs.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-long-bangs-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Long Curly.svg",
+      "descriptive_name": "head-mono-long-curly-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Long Curly.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-long-curly-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Long.svg",
+      "descriptive_name": "head-mono-long-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Long.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-long-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium 1.svg",
+      "descriptive_name": "head-mono-medium-1-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-1-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium 2.svg",
+      "descriptive_name": "head-mono-medium-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium 3.svg",
+      "descriptive_name": "head-mono-medium-3-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-3-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium Bangs 2.svg",
+      "descriptive_name": "head-mono-medium-bangs-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium Bangs 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-bangs-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium Bangs 3.svg",
+      "descriptive_name": "head-mono-medium-bangs-3-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium Bangs 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-bangs-3-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium Bangs.svg",
+      "descriptive_name": "head-mono-medium-bangs-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium Bangs.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-bangs-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Medium Straight.svg",
+      "descriptive_name": "head-mono-medium-straight-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Medium Straight.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-medium-straight-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Mohawk 2.svg",
+      "descriptive_name": "head-mono-mohawk-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Mohawk 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-mohawk-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Mohawk.svg",
+      "descriptive_name": "head-mono-mohawk-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Mohawk.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-mohawk-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "No Hair 1.svg",
+      "descriptive_name": "head-mono-no-hair-1-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/No Hair 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-no-hair-1-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "No Hair 2.svg",
+      "descriptive_name": "head-mono-no-hair-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/No Hair 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-no-hair-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "No Hair 3.svg",
+      "descriptive_name": "head-mono-no-hair-3-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/No Hair 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-no-hair-3-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Pomp.svg",
+      "descriptive_name": "head-mono-pomp-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Pomp.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-pomp-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Shaved 1.svg",
+      "descriptive_name": "head-mono-shaved-1-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Shaved 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-shaved-1-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Shaved 2.svg",
+      "descriptive_name": "head-mono-shaved-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Shaved 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-shaved-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Shaved 3.svg",
+      "descriptive_name": "head-mono-shaved-3-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Shaved 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-shaved-3-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Short 1.svg",
+      "descriptive_name": "head-mono-short-1-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Short 1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-short-1-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Short 2.svg",
+      "descriptive_name": "head-mono-short-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Short 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-short-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Short 3.svg",
+      "descriptive_name": "head-mono-short-3-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Short 3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-short-3-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Short 4.svg",
+      "descriptive_name": "head-mono-short-4-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Short 4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-short-4-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Short 5.svg",
+      "descriptive_name": "head-mono-short-5-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Short 5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-short-5-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Turban.svg",
+      "descriptive_name": "head-mono-turban-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Turban.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-turban-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Twists 2.svg",
+      "descriptive_name": "head-mono-twists-2-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Twists 2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-twists-2-head.svg"
+    },
+    {
+      "category": "head",
+      "original_name": "Twists.svg",
+      "descriptive_name": "head-mono-twists-head",
+      "original_relative_path": "assets/svgs/open_peeps/head/Twists.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/head/head-mono-twists-head.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "bike.svg",
+      "descriptive_name": "pose-sitting-bike-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/bike.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-bike-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "blazer-1.svg",
+      "descriptive_name": "pose-standing-blazer-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/blazer-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-blazer-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "blazer-2.svg",
+      "descriptive_name": "pose-standing-blazer-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/blazer-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-blazer-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "blazer-3.svg",
+      "descriptive_name": "pose-standing-blazer-3-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/blazer-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-blazer-3-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "blazer-4.svg",
+      "descriptive_name": "pose-standing-blazer-4-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/blazer-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-blazer-4-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "closed_legs-1.svg",
+      "descriptive_name": "pose-sitting-closed-legs-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/closed_legs-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-closed-legs-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "closed_legs-2.svg",
+      "descriptive_name": "pose-sitting-closed-legs-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/closed_legs-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-closed-legs-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "crossed_arms-1.svg",
+      "descriptive_name": "pose-standing-crossed-arms-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/crossed_arms-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-crossed-arms-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "crossed_arms-2.svg",
+      "descriptive_name": "pose-standing-crossed-arms-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/crossed_arms-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-crossed-arms-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "crossed_legs.svg",
+      "descriptive_name": "pose-sitting-crossed-legs-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/crossed_legs.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-crossed-legs-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "easing-1.svg",
+      "descriptive_name": "pose-standing-easing-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/easing-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-easing-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "easing-2.svg",
+      "descriptive_name": "pose-standing-easing-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/easing-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-easing-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "hands_back-1.svg",
+      "descriptive_name": "pose-sitting-hands-back-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/hands_back-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-hands-back-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "hands_back-2.svg",
+      "descriptive_name": "pose-sitting-hands-back-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/hands_back-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-hands-back-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "mid-1.svg",
+      "descriptive_name": "pose-sitting-mid-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/mid-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-mid-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "mid-2.svg",
+      "descriptive_name": "pose-sitting-mid-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/mid-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-mid-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "one_leg_up-1.svg",
+      "descriptive_name": "pose-sitting-one-leg-up-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/one_leg_up-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-one-leg-up-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "one_leg_up-2.svg",
+      "descriptive_name": "pose-sitting-one-leg-up-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/one_leg_up-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-one-leg-up-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "pointing_finger-1.svg",
+      "descriptive_name": "pose-standing-pointing-finger-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/pointing_finger-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-pointing-finger-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "pointing_finger-2.svg",
+      "descriptive_name": "pose-standing-pointing-finger-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/pointing_finger-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-pointing-finger-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "polka_dots.svg",
+      "descriptive_name": "pose-standing-polka-dots-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/polka_dots.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-polka-dots-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "resting-1.svg",
+      "descriptive_name": "pose-standing-resting-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/resting-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-resting-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "resting-2.svg",
+      "descriptive_name": "pose-standing-resting-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/resting-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-resting-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "robot_dance-1.svg",
+      "descriptive_name": "pose-standing-robot-dance-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/robot_dance-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-robot-dance-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "robot_dance-2.svg",
+      "descriptive_name": "pose-standing-robot-dance-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/robot_dance-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-robot-dance-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "robot_dance-3.svg",
+      "descriptive_name": "pose-standing-robot-dance-3-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/robot_dance-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-robot-dance-3-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "shirt-1.svg",
+      "descriptive_name": "pose-standing-shirt-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/shirt-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-shirt-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "shirt-2.svg",
+      "descriptive_name": "pose-standing-shirt-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/shirt-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-shirt-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "shirt-3.svg",
+      "descriptive_name": "pose-standing-shirt-3-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/shirt-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-shirt-3-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "shirt-4.svg",
+      "descriptive_name": "pose-standing-shirt-4-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/shirt-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-shirt-4-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "walking-1.svg",
+      "descriptive_name": "pose-standing-walking-1-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/walking-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-walking-1-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "walking-2.svg",
+      "descriptive_name": "pose-standing-walking-2-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/walking-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-walking-2-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "walking-3.svg",
+      "descriptive_name": "pose-standing-walking-3-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/walking-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-standing-walking-3-pose.svg"
+    },
+    {
+      "category": "pose",
+      "original_name": "wheelchair.svg",
+      "descriptive_name": "pose-sitting-wheelchair-pose",
+      "original_relative_path": "assets/svgs/open_peeps/pose/wheelchair.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/pose/pose-sitting-wheelchair-pose.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-1.svg",
+      "descriptive_name": "peep-bust-dress-bangs-monster-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-dress-bangs-monster-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-10.svg",
+      "descriptive_name": "peep-bust-paper-no-hair-1-awe-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-10.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-paper-no-hair-1-awe-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-100.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-no-hair-3-smiling-thin-slim-moustache-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-100.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-no-hair-3-smiling-thin-slim-moustache-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-101.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-gray-medium-smiling",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-101.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-gray-medium-smiling.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-102.svg",
+      "descriptive_name": "peep-bust-coffee-gray-bun-smiling-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-102.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-coffee-gray-bun-smiling-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-103.svg",
+      "descriptive_name": "peep-bust-gaming-no-hair-1-smiling-thin-slim-moustache-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-103.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gaming-no-hair-1-smiling-thin-slim-moustache-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-104.svg",
+      "descriptive_name": "peep-bust-thunder-t-shirt-gray-short-monster-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-104.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-thunder-t-shirt-gray-short-monster-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-105.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-gray-bun-loving-grin-1",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-105.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-gray-bun-loving-grin-1.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-11.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-long-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-11.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-long-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-12.svg",
+      "descriptive_name": "peep-bust-striped-tee-short-5-smiling-none-eyepatch",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-12.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-tee-short-5-smiling-none-eyepatch.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-13.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-medium-2-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-13.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-medium-2-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-14.svg",
+      "descriptive_name": "peep-bust-striped-pocket-tee-buns-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-14.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-pocket-tee-buns-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-15.svg",
+      "descriptive_name": "peep-bust-gym-shirt-cornrows-smiling-wide-two-part-moustache-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-15.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gym-shirt-cornrows-smiling-wide-two-part-moustache-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-16.svg",
+      "descriptive_name": "peep-bust-killer-bun-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-16.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-killer-bun-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-17.svg",
+      "descriptive_name": "peep-bust-shirt-and-coat-hat-hip-calm-narrow-goatee-with-moustache-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-17.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-shirt-and-coat-hat-hip-calm-narrow-goatee-with-moustache-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-18.svg",
+      "descriptive_name": "peep-bust-fur-jacket-short-4-loving-grin-1-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-18.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-fur-jacket-short-4-loving-grin-1-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-19.svg",
+      "descriptive_name": "peep-bust-polo-and-sweater-afro-smiling-bushy-short-full-beard-and-moustache-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-19.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-polo-and-sweater-afro-smiling-bushy-short-full-beard-and-moustache-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-2.svg",
+      "descriptive_name": "peep-bust-whatever-hat-beanie-tired-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-whatever-hat-beanie-tired-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-20.svg",
+      "descriptive_name": "peep-bust-striped-pocket-tee-bun-monster-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-20.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-pocket-tee-bun-monster-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-21.svg",
+      "descriptive_name": "peep-bust-striped-pocket-tee-flat-top-long-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-21.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-pocket-tee-flat-top-long-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-22.svg",
+      "descriptive_name": "peep-bust-sporty-tee-bangs-2-smiling-none-black-oval-lens-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-22.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sporty-tee-bangs-2-smiling-none-black-oval-lens-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-23.svg",
+      "descriptive_name": "peep-bust-tee-selena-long-curly-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-23.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-selena-long-curly-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-24.svg",
+      "descriptive_name": "peep-bust-striped-tee-bun-smiling-bushy-short-full-beard-and-moustache-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-24.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-tee-bun-smiling-bushy-short-full-beard-and-moustache-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-25.svg",
+      "descriptive_name": "peep-bust-gaming-mohawk-2-smiling-none-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-25.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gaming-mohawk-2-smiling-none-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-26.svg",
+      "descriptive_name": "peep-bust-sweater-dots-hijab-smiling-none-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-26.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sweater-dots-hijab-smiling-none-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-27.svg",
+      "descriptive_name": "peep-bust-hoodie-medium-3-smiling-chinstrap-beard-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-27.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-hoodie-medium-3-smiling-chinstrap-beard-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-28.svg",
+      "descriptive_name": "peep-bust-tee-1-bantu-knots-smiling-wide-flat-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-28.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-bantu-knots-smiling-wide-flat-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-29.svg",
+      "descriptive_name": "peep-bust-gym-shirt-medium-3-smiling-wide-flat-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-29.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gym-shirt-medium-3-smiling-wide-flat-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-3.svg",
+      "descriptive_name": "peep-bust-striped-pocket-tee-bantu-knots-hectic-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-pocket-tee-bantu-knots-hectic-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-30.svg",
+      "descriptive_name": "peep-bust-tee-arms-crossed-hijab-smiling-none-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-30.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-arms-crossed-hijab-smiling-none-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-31.svg",
+      "descriptive_name": "peep-bust-tee-1-cornrows-2-cute-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-31.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-cornrows-2-cute-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-32.svg",
+      "descriptive_name": "peep-bust-paper-long-afro-cute-narrow-goatee-with-moustache-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-32.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-paper-long-afro-cute-narrow-goatee-with-moustache-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-33.svg",
+      "descriptive_name": "peep-bust-tee-2-twists-fear-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-33.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-2-twists-fear-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-34.svg",
+      "descriptive_name": "peep-bust-coffee-hat-hip-smiling-wide-two-part-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-34.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-coffee-hat-hip-smiling-wide-two-part-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-35.svg",
+      "descriptive_name": "peep-bust-tee-arms-crossed-bun-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-35.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-arms-crossed-bun-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-36.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-no-hair-3-happy-grin-none-eyepatch",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-36.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-no-hair-3-happy-grin-none-eyepatch.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-37.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-medium-2-smiling-none-variant-2",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-37.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-medium-2-smiling-none-variant-2.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-38.svg",
+      "descriptive_name": "peep-bust-coffee-hijab-smiling-none-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-38.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-coffee-hijab-smiling-none-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-39.svg",
+      "descriptive_name": "peep-bust-paper-cornrows-2-cute-narrow-goatee-with-moustache-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-39.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-paper-cornrows-2-cute-narrow-goatee-with-moustache-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-4.svg",
+      "descriptive_name": "peep-bust-explaining-no-hair-2-smiling-narrow-goatee-with-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-explaining-no-hair-2-smiling-narrow-goatee-with-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-40.svg",
+      "descriptive_name": "peep-bust-striped-tee-turban-contempt-none-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-40.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-tee-turban-contempt-none-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-41.svg",
+      "descriptive_name": "peep-bust-fur-jacket-hat-hip-smiling-wide-two-part-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-41.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-fur-jacket-hat-hip-smiling-wide-two-part-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-42.svg",
+      "descriptive_name": "peep-bust-fur-jacket-no-hair-3-eating-happy-wide-flat-moustache-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-42.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-fur-jacket-no-hair-3-eating-happy-wide-flat-moustache-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-43.svg",
+      "descriptive_name": "peep-bust-device-twists-2-blank-rounded-short-full-beard-and-moustache-beard",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-43.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-device-twists-2-blank-rounded-short-full-beard-and-moustache-beard.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-44.svg",
+      "descriptive_name": "peep-bust-whatever-shaved-2-eyes-closed-none-eyepatch",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-44.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-whatever-shaved-2-eyes-closed-none-eyepatch.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-45.svg",
+      "descriptive_name": "peep-bust-device-afro-angry-with-fang-bushy-short-full-beard-and-moustache-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-45.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-device-afro-angry-with-fang-bushy-short-full-beard-and-moustache-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-46.svg",
+      "descriptive_name": "peep-bust-macbook-short-5-driven-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-46.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-macbook-short-5-driven-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-47.svg",
+      "descriptive_name": "peep-bust-tee-arms-crossed-twists-explaining-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-47.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-arms-crossed-twists-explaining-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-48.svg",
+      "descriptive_name": "peep-bust-sporty-tee-bun-2-smiling-none-black-oval-lens-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-48.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sporty-tee-bun-2-smiling-none-black-oval-lens-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-49.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-medium-bangs-2-eating-happy-narrow-goatee-with-moustache-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-49.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-medium-bangs-2-eating-happy-narrow-goatee-with-moustache-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-5.svg",
+      "descriptive_name": "peep-bust-sweater-dots-turban-happy-grin-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sweater-dots-turban-happy-grin-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-50.svg",
+      "descriptive_name": "peep-bust-shirt-and-coat-short-4-smiling-none-eyepatch",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-50.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-shirt-and-coat-short-4-smiling-none-eyepatch.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-51.svg",
+      "descriptive_name": "peep-bust-hoodie-no-hair-1-smiling-rounded-short-full-beard-and-moustache-beard-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-51.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-hoodie-no-hair-1-smiling-rounded-short-full-beard-and-moustache-beard-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-52.svg",
+      "descriptive_name": "peep-bust-polka-dot-jacket-shaved-3-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-52.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-polka-dot-jacket-shaved-3-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-53.svg",
+      "descriptive_name": "peep-bust-tee-2-mohawk-suspicious-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-53.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-2-mohawk-suspicious-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-54.svg",
+      "descriptive_name": "peep-bust-tee-1-twists-explaining-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-54.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-twists-explaining-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-55.svg",
+      "descriptive_name": "peep-bust-gym-shirt-mohawk-2-smiling-wide-flat-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-55.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gym-shirt-mohawk-2-smiling-wide-flat-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-56.svg",
+      "descriptive_name": "peep-bust-dress-medium-2-monster-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-56.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-dress-medium-2-monster-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-57.svg",
+      "descriptive_name": "peep-bust-explaining-long-curly-old-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-57.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-explaining-long-curly-old-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-58.svg",
+      "descriptive_name": "peep-bust-fur-jacket-hat-hip-smiling-wide-two-part-moustache-none-variant-2",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-58.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-fur-jacket-hat-hip-smiling-wide-two-part-moustache-none-variant-2.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-59.svg",
+      "descriptive_name": "peep-bust-coffee-twists-2-cheeky-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-59.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-coffee-twists-2-cheeky-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-6.svg",
+      "descriptive_name": "peep-bust-tee-arms-crossed-hijab-smiling-none-small-round-clear-eyeglasses-variant-2",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-arms-crossed-hijab-smiling-none-small-round-clear-eyeglasses-variant-2.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-60.svg",
+      "descriptive_name": "peep-bust-pointing-up-bun-2-cyclops-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-60.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-pointing-up-bun-2-cyclops-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-61.svg",
+      "descriptive_name": "peep-bust-thunder-t-shirt-long-bangs-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-61.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-thunder-t-shirt-long-bangs-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-62.svg",
+      "descriptive_name": "peep-bust-explaining-medium-2-happy-grin-none-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-62.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-explaining-medium-2-happy-grin-none-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-63.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-hijab-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-63.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-hijab-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-64.svg",
+      "descriptive_name": "peep-bust-paper-medium-bangs-2-concerned-fear-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-64.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-paper-medium-bangs-2-concerned-fear-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-65.svg",
+      "descriptive_name": "peep-bust-fur-jacket-hat-hip-smiling-wide-two-part-moustache-none-variant-3",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-65.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-fur-jacket-hat-hip-smiling-wide-two-part-moustache-none-variant-3.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-66.svg",
+      "descriptive_name": "peep-bust-tee-arms-crossed-buns-calm-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-66.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-arms-crossed-buns-calm-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-67.svg",
+      "descriptive_name": "peep-bust-paper-medium-1-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-67.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-paper-medium-1-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-68.svg",
+      "descriptive_name": "peep-bust-whatever-flat-top-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-68.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-whatever-flat-top-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-69.svg",
+      "descriptive_name": "peep-bust-sporty-tee-cornrows-2-cyclops-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-69.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sporty-tee-cornrows-2-cyclops-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-7.svg",
+      "descriptive_name": "peep-bust-whatever-flat-top-long-cheeky-wide-two-part-moustache-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-whatever-flat-top-long-cheeky-wide-two-part-moustache-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-70.svg",
+      "descriptive_name": "peep-bust-dress-bun-old-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-70.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-dress-bun-old-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-71.svg",
+      "descriptive_name": "peep-bust-whatever-cornrows-2-angry-with-fang-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-71.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-whatever-cornrows-2-angry-with-fang-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-72.svg",
+      "descriptive_name": "peep-bust-sporty-tee-hijab-smiling-none-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-72.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sporty-tee-hijab-smiling-none-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-73.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-hat-beanie-eating-happy-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-73.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-hat-beanie-eating-happy-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-74.svg",
+      "descriptive_name": "peep-bust-polka-dot-jacket-no-hair-3-eating-happy-bushy-short-full-beard-and-moustache-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-74.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-polka-dot-jacket-no-hair-3-eating-happy-bushy-short-full-beard-and-moustache-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-75.svg",
+      "descriptive_name": "peep-bust-tee-selena-hat-beanie-tired-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-75.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-selena-hat-beanie-tired-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-76.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-hat-beanie-happy-grin-short-full-beard-and-moustache-classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-76.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-hat-beanie-happy-grin-short-full-beard-and-moustache-classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-77.svg",
+      "descriptive_name": "peep-bust-killer-afro-awe-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-77.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-killer-afro-awe-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-78.svg",
+      "descriptive_name": "peep-bust-device-short-3-smiling-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-78.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-device-short-3-smiling-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-79.svg",
+      "descriptive_name": "peep-bust-hoodie-bun-2-smiling-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-79.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-hoodie-bun-2-smiling-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-8.svg",
+      "descriptive_name": "peep-bust-hoodie-short-3-smiling-chinstrap-beard-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-8.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-hoodie-short-3-smiling-chinstrap-beard-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-80.svg",
+      "descriptive_name": "peep-bust-tee-2-cornrows-solemn-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-80.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-2-cornrows-solemn-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-81.svg",
+      "descriptive_name": "peep-bust-blazer-black-tee-medium-bangs-2-cute-narrow-goatee-with-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-81.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-blazer-black-tee-medium-bangs-2-cute-narrow-goatee-with-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-82.svg",
+      "descriptive_name": "peep-bust-tee-1-medium-bangs-3-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-82.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-medium-bangs-3-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-83.svg",
+      "descriptive_name": "peep-bust-shirt-and-coat-no-hair-1-awe-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-83.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-shirt-and-coat-no-hair-1-awe-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-84.svg",
+      "descriptive_name": "peep-bust-polo-and-sweater-bangs-2-angry-with-fang-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-84.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-polo-and-sweater-bangs-2-angry-with-fang-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-85.svg",
+      "descriptive_name": "peep-bust-sweater-dots-turban-old-short-full-beard-and-moustache-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-85.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sweater-dots-turban-old-short-full-beard-and-moustache-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-86.svg",
+      "descriptive_name": "peep-bust-gym-shirt-medium-straight-very-angry-none-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-86.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gym-shirt-medium-straight-very-angry-none-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-87.svg",
+      "descriptive_name": "peep-bust-dress-medium-bangs-3-smiling-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-87.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-dress-medium-bangs-3-smiling-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-88.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-medium-bangs-eyes-closed-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-88.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-medium-bangs-eyes-closed-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-89.svg",
+      "descriptive_name": "peep-bust-killer-bun-smiling-none-variant-2",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-89.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-killer-bun-smiling-none-variant-2.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-9.svg",
+      "descriptive_name": "peep-bust-tee-1-medium-bangs-3-smiling-thin-long-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-9.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-medium-bangs-3-smiling-thin-long-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-90.svg",
+      "descriptive_name": "peep-bust-polka-dot-jacket-hijab-calm-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-90.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-polka-dot-jacket-hijab-calm-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-91.svg",
+      "descriptive_name": "peep-bust-tee-1-twists-2-smiling-wide-flat-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-91.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-twists-2-smiling-wide-flat-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-92.svg",
+      "descriptive_name": "peep-bust-button-shirt-1-twists-old-round-goatee-with-moustache-wide-rounded-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-92.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-button-shirt-1-twists-old-round-goatee-with-moustache-wide-rounded-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-93.svg",
+      "descriptive_name": "peep-bust-sporty-tee-bun-blank-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-93.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sporty-tee-bun-blank-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-94.svg",
+      "descriptive_name": "peep-bust-tee-1-bun-2-smiling-rounded-short-full-beard-and-moustache-beard-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-94.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-tee-1-bun-2-smiling-rounded-short-full-beard-and-moustache-beard-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-95.svg",
+      "descriptive_name": "peep-bust-striped-pocket-tee-pomp-monster-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-95.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-striped-pocket-tee-pomp-monster-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-96.svg",
+      "descriptive_name": "peep-bust-shirt-and-coat-long-curly-smiling-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-96.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-shirt-and-coat-long-curly-smiling-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-97.svg",
+      "descriptive_name": "peep-bust-sweater-dots-bear-smiling-thin-wavy-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-97.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-sweater-dots-bear-smiling-thin-wavy-moustache-none.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-98.svg",
+      "descriptive_name": "peep-bust-gym-shirt-long-afro-eyes-closed-none-classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-98.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-gym-shirt-long-afro-eyes-closed-none-classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_bust",
+      "original_name": "peep-99.svg",
+      "descriptive_name": "peep-bust-polo-and-sweater-gray-short-smiling-outlined-short-full-beard-and-moustache-beard-classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_bust/peep-99.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_bust/peep-bust-polo-and-sweater-gray-short-smiling-outlined-short-full-beard-and-moustache-beard-classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-1.svg",
+      "descriptive_name": "peep-bust-covid-mask-tee-selena-hat-beanie-tired-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-tee-selena-hat-beanie-tired-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-10.svg",
+      "descriptive_name": "peep-bust-covid-mask-gym-shirt-cornrows-smile-wide-two-part-moustache-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-10.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-gym-shirt-cornrows-smile-wide-two-part-moustache-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-11.svg",
+      "descriptive_name": "peep-bust-covid-mask-polo-and-sweater-gray-short-smile-classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-11.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-polo-and-sweater-gray-short-smile-classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-12.svg",
+      "descriptive_name": "peep-bust-covid-mask-button-shirt-1-no-hair-3-smile-thin-slim-moustache-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-12.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-button-shirt-1-no-hair-3-smile-thin-slim-moustache-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-13.svg",
+      "descriptive_name": "peep-bust-covid-mask-sporty-tee-bangs-2-smile-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-13.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-sporty-tee-bangs-2-smile-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-14.svg",
+      "descriptive_name": "peep-bust-covid-mask-tee-selena-long-curly-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-14.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-tee-selena-long-curly-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-15.svg",
+      "descriptive_name": "peep-bust-covid-mask-gym-shirt-medium-3-smile-wide-flat-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-15.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-gym-shirt-medium-3-smile-wide-flat-moustache-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-16.svg",
+      "descriptive_name": "peep-bust-covid-mask-tee-arms-crossed-hijab-smile-none-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-16.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-tee-arms-crossed-hijab-smile-none-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-2.svg",
+      "descriptive_name": "peep-bust-covid-mask-shirt-and-coat-no-hair-1-awe-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-shirt-and-coat-no-hair-1-awe-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-3.svg",
+      "descriptive_name": "peep-bust-covid-mask-coffee-gray-bun-smile-small-round-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-coffee-gray-bun-smile-small-round-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-4.svg",
+      "descriptive_name": "peep-bust-covid-mask-button-shirt-1-hat-beanie-smile-big-classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-button-shirt-1-hat-beanie-smile-big-classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-5.svg",
+      "descriptive_name": "peep-bust-covid-mask-jacket-polka-dots-no-hair-3-eating-happy-bushy-short-full-beard-and-moustache-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-jacket-polka-dots-no-hair-3-eating-happy-bushy-short-full-beard-and-moustache-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-6.svg",
+      "descriptive_name": "peep-bust-covid-mask-dress-bangs-smile-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-dress-bangs-smile-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-7.svg",
+      "descriptive_name": "peep-bust-covid-mask-whatever-hat-beanie-tired-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-whatever-hat-beanie-tired-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-8.svg",
+      "descriptive_name": "peep-bust-covid-mask-hoodie-short-3-smile-chinstrap-beard-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-8.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-hoodie-short-3-smile-chinstrap-beard-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "bust-mask-9.svg",
+      "descriptive_name": "peep-bust-covid-mask-tee-1-medium-bangs-3-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/bust-mask-9.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-tee-1-medium-bangs-3-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-1.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-03-short-5-old-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-03-short-5-old-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-2.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-03-doctor-nurse-2-with-mask-calm-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-03-doctor-nurse-2-with-mask-calm-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-3.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-02-doctor-nurse-3-with-mask-smile-none-classic-clear-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-02-doctor-nurse-3-with-mask-smile-none-classic-clear-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-4.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-01-twists-smile-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-01-twists-smile-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-5.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-01-short-1-smile-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-01-short-1-smile-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-6.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-02-bun-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-02-bun-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "doc-nurse-7.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-doctor-nurse-01-doctor-nurse-2-with-mask-cheers-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/doc-nurse-7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-doctor-nurse-01-doctor-nurse-2-with-mask-cheers-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-1.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-walking-1-hat-beanie-hectic-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-walking-1-hat-beanie-hectic-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-2.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-crossed-arms-1-gray-short-suspicious-thin-slim-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-crossed-arms-1-gray-short-suspicious-thin-slim-moustache-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-3.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-pointing-finger-2-bun-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-pointing-finger-2-bun-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-4.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-resting-2-gray-bun-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-resting-2-gray-bun-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-5.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-blazer-2-mohawk-smile-lol-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-blazer-2-mohawk-smile-lol-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-6.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-walking-2-hat-hip-smile-lol-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-walking-2-hat-hip-smile-lol-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-7.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-polka-dots-bun-old-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-polka-dots-bun-old-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "pose-mask-8.svg",
+      "descriptive_name": "peep-bust-covid-mask-standing-robot-dance-1-long-curly-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/pose-mask-8.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-standing-robot-dance-1-long-curly-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "sit-mask-1.svg",
+      "descriptive_name": "peep-bust-covid-mask-sitting-one-leg-up-1-afro-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/sit-mask-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-sitting-one-leg-up-1-afro-smile-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "sit-mask-2.svg",
+      "descriptive_name": "peep-bust-covid-mask-sitting-closed-legs-1-long-bangs-contempt-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/sit-mask-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-sitting-closed-legs-1-long-bangs-contempt-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "sit-mask-3.svg",
+      "descriptive_name": "peep-bust-covid-mask-sitting-bike-bun-2-smile-big-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/sit-mask-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-sitting-bike-bun-2-smile-big-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "sit-mask-4.svg",
+      "descriptive_name": "peep-bust-covid-mask-sitting-mid-1-long-curly-eyes-closed-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/sit-mask-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-sitting-mid-1-long-curly-eyes-closed-none.svg"
+    },
+    {
+      "category": "templates_covid-19",
+      "original_name": "sit-mask-5.svg",
+      "descriptive_name": "peep-bust-covid-mask-sitting-hands-back-2-medium-2-eyes-closed-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_covid-19/sit-mask-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_covid-19/peep-bust-covid-mask-sitting-hands-back-2-medium-2-eyes-closed-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-1.svg",
+      "descriptive_name": "peep-sitting-sitting-closed-legs-2-afro-calm-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-closed-legs-2-afro-calm-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-10.svg",
+      "descriptive_name": "peep-sitting-sitting-hands-back-1-bun-smile-teeth-gap-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-10.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-hands-back-1-bun-smile-teeth-gap-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-11.svg",
+      "descriptive_name": "peep-sitting-sitting-one-leg-up-2-flat-top-smile-teeth-gap-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-11.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-one-leg-up-2-flat-top-smile-teeth-gap-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-12.svg",
+      "descriptive_name": "peep-sitting-sitting-one-leg-up-1-afro-calm-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-12.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-one-leg-up-1-afro-calm-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-13.svg",
+      "descriptive_name": "peep-sitting-sitting-bike-long-afro-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-13.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-bike-long-afro-smile-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-14.svg",
+      "descriptive_name": "peep-sitting-sitting-wheelchair-gray-short-smile-big-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-14.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-wheelchair-gray-short-smile-big-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-15.svg",
+      "descriptive_name": "peep-sitting-sitting-wheelchair-bun-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-15.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-wheelchair-bun-smile-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-16.svg",
+      "descriptive_name": "peep-sitting-sitting-bike-long-curly-smile-big-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-16.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-bike-long-curly-smile-big-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-17.svg",
+      "descriptive_name": "peep-sitting-sitting-crossed-legs-no-hair-3-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-17.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-no-hair-3-smile-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-18.svg",
+      "descriptive_name": "peep-sitting-sitting-closed-legs-1-flat-top-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-18.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-closed-legs-1-flat-top-smile-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-2.svg",
+      "descriptive_name": "peep-sitting-sitting-closed-legs-1-bun-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-closed-legs-1-bun-smile-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-3.svg",
+      "descriptive_name": "peep-sitting-sitting-bike-short-2-eating-happy-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-bike-short-2-eating-happy-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-4.svg",
+      "descriptive_name": "peep-sitting-sitting-mid-1-no-hair-1-smile-teeth-gap-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-mid-1-no-hair-1-smile-teeth-gap-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-5.svg",
+      "descriptive_name": "peep-sitting-sitting-mid-1-hat-beanie-eating-happy-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-mid-1-hat-beanie-eating-happy-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-6.svg",
+      "descriptive_name": "peep-sitting-sitting-crossed-legs-gray-short-smile-big-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-gray-short-smile-big-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-7.svg",
+      "descriptive_name": "peep-sitting-sitting-crossed-legs-long-afro-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-long-afro-smile-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-8.svg",
+      "descriptive_name": "peep-sitting-sitting-bike-medium-2-loving-grin-1-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-8.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-bike-medium-2-loving-grin-1-none.svg"
+    },
+    {
+      "category": "templates_sitting",
+      "original_name": "peep-sitting-9.svg",
+      "descriptive_name": "peep-sitting-sitting-hands-back-2-long-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-9.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_sitting/peep-sitting-sitting-hands-back-2-long-smile-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-1.svg",
+      "descriptive_name": "peep-standing-standing-shirt-1-long-curly-smile-none-wide-rounded-clear-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-1.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-1-long-curly-smile-none-wide-rounded-clear-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-10.svg",
+      "descriptive_name": "peep-standing-standing-crossed-arms-1-cornrows-smile-big-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-10.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-crossed-arms-1-cornrows-smile-big-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-11.svg",
+      "descriptive_name": "peep-standing-standing-crossed-arms-2-hat-beanie-loving-grin-1-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-11.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-crossed-arms-2-hat-beanie-loving-grin-1-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-12.svg",
+      "descriptive_name": "peep-standing-standing-crossed-arms-1-bun-smile-big-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-12.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-crossed-arms-1-bun-smile-big-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-13.svg",
+      "descriptive_name": "peep-standing-standing-easing-1-no-hair-1-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-13.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-easing-1-no-hair-1-smile-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-14.svg",
+      "descriptive_name": "peep-standing-standing-easing-2-long-smile-big-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-14.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-easing-2-long-smile-big-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-15.svg",
+      "descriptive_name": "peep-standing-standing-easing-1-gray-short-smile-none-black-oval-lens-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-15.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-easing-1-gray-short-smile-none-black-oval-lens-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-16.svg",
+      "descriptive_name": "peep-standing-standing-pointing-finger-1-bun-2-calm-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-16.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-pointing-finger-1-bun-2-calm-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-17.svg",
+      "descriptive_name": "peep-standing-standing-pointing-finger-2-medium-bangs-2-smile-teeth-gap-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-17.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-pointing-finger-2-medium-bangs-2-smile-teeth-gap-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-18.svg",
+      "descriptive_name": "peep-standing-standing-blazer-4-twists-smile-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-18.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-blazer-4-twists-smile-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-19.svg",
+      "descriptive_name": "peep-standing-standing-polka-dots-hat-beanie-smile-short-full-beard-and-moustache-black-oval-lens-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-19.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-polka-dots-hat-beanie-smile-short-full-beard-and-moustache-black-oval-lens-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-2.svg",
+      "descriptive_name": "peep-standing-standing-shirt-2-long-afro-loving-grin-1-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-2.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-2-long-afro-loving-grin-1-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-20.svg",
+      "descriptive_name": "peep-standing-standing-shirt-4-flat-top-long-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-20.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-4-flat-top-long-smile-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-21.svg",
+      "descriptive_name": "peep-standing-standing-polka-dots-short-5-smile-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-21.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-polka-dots-short-5-smile-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-22.svg",
+      "descriptive_name": "peep-standing-standing-robot-dance-2-medium-bangs-smile-big-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-22.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-robot-dance-2-medium-bangs-smile-big-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-23.svg",
+      "descriptive_name": "peep-standing-standing-robot-dance-3-hat-hip-calm-short-full-beard-and-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-23.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-robot-dance-3-hat-hip-calm-short-full-beard-and-moustache-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-24.svg",
+      "descriptive_name": "peep-standing-standing-robot-dance-1-bangs-2-explaining-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-24.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-robot-dance-1-bangs-2-explaining-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-25.svg",
+      "descriptive_name": "peep-standing-standing-walking-2-long-afro-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-25.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-walking-2-long-afro-smile-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-26.svg",
+      "descriptive_name": "peep-standing-standing-walking-3-long-loving-grin-1-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-26.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-walking-3-long-loving-grin-1-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-27.svg",
+      "descriptive_name": "peep-standing-standing-walking-1-long-afro-smile-thin-wavy-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-27.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-walking-1-long-afro-smile-thin-wavy-moustache-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-28.svg",
+      "descriptive_name": "peep-standing-standing-shirt-1-flat-top-contempt-none-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-28.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-1-flat-top-contempt-none-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-29.svg",
+      "descriptive_name": "peep-standing-standing-shirt-2-short-2-smile-none-mixed-round-and-oval-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-29.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-2-short-2-smile-none-mixed-round-and-oval-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-3.svg",
+      "descriptive_name": "peep-standing-standing-shirt-3-hat-hip-smile-teeth-gap-thin-wavy-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-3.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-3-hat-hip-smile-teeth-gap-thin-wavy-moustache-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-30.svg",
+      "descriptive_name": "peep-standing-standing-shirt-3-short-4-old-thin-wavy-moustache-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-30.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-shirt-3-short-4-old-thin-wavy-moustache-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-4.svg",
+      "descriptive_name": "peep-standing-standing-resting-2-long-explaining-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-4.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-resting-2-long-explaining-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-5.svg",
+      "descriptive_name": "peep-standing-standing-resting-1-hijab-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-5.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-resting-1-hijab-smile-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-6.svg",
+      "descriptive_name": "peep-standing-standing-resting-2-medium-bangs-smile-none-thick-rim-round-eyeglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-6.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-resting-2-medium-bangs-smile-none-thick-rim-round-eyeglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-7.svg",
+      "descriptive_name": "peep-standing-standing-blazer-1-buns-smile-teeth-gap-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-7.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-blazer-1-buns-smile-teeth-gap-none.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-8.svg",
+      "descriptive_name": "peep-standing-standing-blazer-2-gray-bun-smile-big-none-black-oval-lens-black-wayfarer-sunglasses",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-8.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-blazer-2-gray-bun-smile-big-none-black-oval-lens-black-wayfarer-sunglasses.svg"
+    },
+    {
+      "category": "templates_standing",
+      "original_name": "peep-standing-9.svg",
+      "descriptive_name": "peep-standing-standing-blazer-3-long-smile-none",
+      "original_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-9.svg",
+      "descriptive_relative_path": "assets/svgs/open_peeps/templates_standing/peep-standing-standing-blazer-3-long-smile-none.svg"
+    }
+  ],
+  "applied": true,
+  "repair_completed": true
+}

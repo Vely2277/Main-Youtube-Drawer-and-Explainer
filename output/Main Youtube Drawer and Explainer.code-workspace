@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "../../Downloads/svg_stroke_test_bundle/svg_stroke_test/assets"
+		},
+		{
+			"name": "USER",
+			"path": "../.."
+		},
+		{
+			"name": "Main Youtube Drawer and Explainer",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

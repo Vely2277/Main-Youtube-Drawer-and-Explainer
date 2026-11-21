@@ -1,0 +1,12 @@
+# This file records the segment order used by Manim.
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/3591c20bc7a2ab17cee9489a8bca9d78ba24d79a6d135f15a7844aedcef24181.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/71a057b8bda8d5304380c22646cfee1dbf3594c8acd9a29cf5d82aae61ebdadb.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/425c354d16726133e4cf8a0ded738ad42e67ce2e66b36e956bafe46a7e2304c3.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/38be49f3f694943946dd4afccf93d82deac4975c1060acd6f6a28228383a25dc.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/c5e26fbc84e2ab473dcd879deab79829f3b2e130caf8bf819b0da7072a2ab80a.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/8e36889ff07354305716e3577cae931d87f50c4ee1ae9b493a141c5fec604d63.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/7d0e6d3e059742772deb7e814378f5058d3386af3fd1476aad2af5e82d58302f.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/6b904b5325de8e959878575f3310d49493d260370f5950c8a05e26a205737aaf.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/1ecbe716cb2e6b8cd160fc78858078903e445b2b8d7d0447649c0a33693121f3.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/3e2388306e5bdac6ef59e1c143fe7f4660f84cd2fba6a630bbe934eb9d140a9c.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/DrawingTest/5d1a532b9881997b3117f240723540db6873a63cfd275531edab206e1345014f.mp4'

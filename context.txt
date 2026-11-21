@@ -1,0 +1,87 @@
+Haha, now we're cooking! That whole architecture clicks together cleanly: no GPU, no paid APIs, no cloud rate limits, no diffusion slop, and no 3B model hallucinating crooked blobs from scratch.
+Here is the complete, end-to-end project blueprint for your 100% free, local-first CPU "watch it draw" YouTube storytelling pipeline.
+Project Blueprint: Local CPU SVG-Composer & Manim Stroke-Animator
+1. Core Concept & Why It Works on Your Hardware
+Instead of generating heavy raster AI images on a GPU or paying for cloud APIs, the system treats storytelling as scene composition + vector stroke animation:
+ * Curated Vector Libraries (Real Drawings): Thousands of free/open-source SVG illustrations, characters, props, and icons sit locally on your hard drive.
+ * Semantic Vector Search (MiniLM + FAISS): Converts every SVG's filename/metadata into a 384-number meaning vector once, letting you find "house on fire" when the file is named burning_building.svg in milliseconds on CPU.
+ * Small Local LLM as Scene Director (Ollama): Reads each story paragraph, looks only at the top ~15 candidate SVGs returned for that beat, and outputs clean JSON deciding which layers appear, where they sit on screen, and how they animate.
+ * Deterministic Stroke Renderer (Manim + FFmpeg): Loads the chosen .svg files as SVGMobjects and draws them line-by-line onto the canvas on your CPU, exporting clean MP4 scenes ready for voiceover and assembly.
+2. System Architecture (Script In \rightarrow Video Out)
+[Story Script (.txt / .md)]
+         │
+         ▼
+1. Scene Splitter (Python)
+   └─ Breaks story into beats/paragraphs + narration lines
+         │
+         ▼
+2. Semantic Asset Retriever (all-MiniLM-L6-v2 + FAISS)
+   └─ Searches local SVG index (~5,000+ SVGs) in ~5ms on CPU
+   └─ Returns top candidate SVGs per scene role (bg / character / prop)
+         │
+         ▼
+3. Scene Director (Ollama — small local model, e.g., qwen2.5:3b)
+   └─ Picks best 2–4 SVGs from candidates + coordinates/scale/animation
+   └─ Outputs strict JSON per scene
+         │
+         ▼
+4. Stroke Animator & Video Exporter (Manim + FFmpeg)
+   └─ Builds Manim scene from JSON using SVGMobject + Create()/DrawBorderThenFill()
+   └─ Renders scene MP4s on CPU and stitches final video + audio
+
+3. Folder Structure
+story-drawer/
+├── assets/
+│   └── svgs/                  # All downloaded open-source SVG packs
+│       ├── open_peeps/
+│       ├── open_doodles/
+│       ├── mega_doodles/
+│       ├── undraw/
+│       └── lucide_or_tabler/
+├── index/
+│   ├── svgs.index             # FAISS vector index (~7.5 MB for 5,000 SVGs)
+│   └── metadata.json          # File paths, clean labels, and XML tags
+├── scripts/
+│   ├── story.txt              # Your input story paragraphs
+│   └── voiceover/             # Optional per-scene voiceover WAV/MP3 files
+├── build_index.py             # One-time (or per-new-pack) SVG scanner & indexer
+├── compose_scenes.py          # Retrieves candidates + asks Ollama for scene JSON
+├── render_video.py            # Generates Manim code & renders final MP4 via FFmpeg
+└── output/
+    ├── scenes/                # Individual rendered scene clips
+    └── final_story.mp4        # Final stitched video
+
+4. Step-by-Step Build Plan
+Phase 1: Stock the Local SVG Library ($0, One-Time)
+Download open-source vector packs into assets/svgs/:
+ * Characters & Expressions: Open Peeps, Open Doodles, Humaaans.
+ * Hand-Drawn Props & Accents: MariaLetta's Mega Doodles Pack.
+ * Scenes & Icons: unDraw, Lucide, or Tabler Icons.
+ * Tip: Keep folder names descriptive (like fire_flames.svg, city_street.svg, person_running.svg) because filenames are prime signal for embeddings.
+Phase 2: Build the Semantic Search Index (build_index.py)
+ * Scans assets/svgs/ recursively for .svg files.
+ * Extracts human-readable text from file paths plus any <title>, <desc>, or <g id="..."> attributes inside the SVG XML.
+ * Encodes descriptions with sentence-transformers/all-MiniLM-L6-v2 on CPU and saves a FAISS index + metadata.json.
+ * Runtime: ~1–2 minutes once for ~5,000 files; ~2–10 ms per query afterward.
+Phase 3: Scene Composition via Small Local LLM (compose_scenes.py)
+ * Splits story.txt into paragraphs/beats.
+ * For each beat, queries svgs.index for top matches (e.g., background, character, prop/symbol).
+ * Sends only the beat text and those ~15 candidate filenames to a small local Ollama model (qwen2.5:3b or llama3.2:3b) with a strict JSON schema:
+   * Which SVGs to use (validated against existing files so missing paths never crash the render).
+   * Screen position (x, y), scale, draw order (z_index), and Manim animation style (Create for outline drawing, DrawBorderThenFill for line-then-fill).
+   * Estimated or voiceover-synced scene duration.
+Phase 4: Manim Stroke Animation & Final Assembly (render_video.py)
+ * Converts each scene's JSON layout into a Manim Scene using SVGMobject.
+ * Applies clean stroke/fill styling and animates strokes progressively on CPU (Create / DrawBorderThenFill), adding subtle camera/position shifts where helpful.
+ * Pairs each scene clip with its voiceover audio (or leaves clean video tracks for your editor) and concatenates everything into output/final_story.mp4 using FFmpeg.
+5. Practical Guardrails for Smooth Runs on 8 GB RAM
+ * Keep the LLM prompt tiny: Only pass the top ~15 retrieved SVGs per beat—never dump 5,000 filenames into the prompt.
+ * Validate every file path in Python: If the model outputs anything outside the candidate list, fall back automatically to candidate #1 from FAISS.
+ * Start at 720p30 while testing: Render test scenes at 720p, 30fps first to verify timing, composition, and stroke speed quickly before bumping up quality.
+ * Reuse the index: Only re-run build_index.py when you drop new SVG folders into assets/svgs/.
+Want to Start Coding?
+We can build this cleanly in order:
+ * build_index.py (scans SVGs + builds the FAISS index)
+ * compose_scenes.py (FAISS search + Ollama JSON scene plan)
+ * render_video.py (Manim stroke drawing + FFmpeg export)
+Which script do you want to write first—build_index.py to index your SVGs, or render_video.py to test Manim drawing SVGs on your CPU right away?

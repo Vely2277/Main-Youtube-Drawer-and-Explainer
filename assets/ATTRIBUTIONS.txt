@@ -1,0 +1,27 @@
+Asset library attribution
+
+Lucide
+Source: https://github.com/lucide-icons/lucide
+License: ISC (see licenses/lucide-LICENSE)
+Some icons are derived from Feather and remain under the MIT license; see the
+Lucide license file for the applicable notice.
+
+Tabler Icons
+Source: https://github.com/tabler/tabler-icons
+License: MIT (see licenses/tabler-LICENSE)
+
+Mega Doodles Pack
+Source: https://github.com/MariaLetta/mega-doodles-pack
+License: CC BY-SA 4.0
+Artist: Maria Letta
+License details: https://creativecommons.org/licenses/by-sa/4.0/
+
+Open Peeps Flat Assets
+Source: https://www.openpeeps.com/
+License: CC0 1.0 (public domain dedication)
+License details: https://creativecommons.org/publicdomain/zero/1.0/
+
+Humaaans
+Source: https://www.humaaans.com/
+License: Copyright Pablo Stanley; free for personal and commercial use
+License details: https://www.humaaans.com/license
