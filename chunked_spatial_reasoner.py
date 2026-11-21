@@ -38,6 +38,83 @@ class ChunkedSpatialReasoner:
         self.safe_margin_x = 0.5
         self.safe_margin_y = 0.5
 
+    def _validate_and_retry(self, prompt: str, expected_format: str, max_retries: int = 2) -> list:
+        """
+        Validate LLM response format and retry if incorrect.
+        
+        Args:
+            prompt: The prompt to send
+            expected_format: Description of expected format for error message
+            max_retries: Number of retries
+            
+        Returns:
+            Parsed and validated result
+        """
+        for attempt in range(max_retries + 1):
+            try:
+                response = self.client.generate(prompt, json_mode=True, timeout=180)
+                result = json.loads(response)
+                
+                # Handle dict responses
+                if isinstance(result, dict):
+                    # Check if dict has list value
+                    has_list = False
+                    for key, value in result.items():
+                        if isinstance(value, list):
+                            result = value
+                            has_list = True
+                            break
+                    # If no list value, convert dict to array of [key, value] pairs
+                    if not has_list:
+                        # Check if it's a single entity format like {'entity_name': 'cloud', 'scale': 0.125}
+                        # This is invalid format, need to retry
+                        if attempt < max_retries:
+                            print(f"  [RETRY] Invalid format (dict without list), retrying ({attempt + 1}/{max_retries})...")
+                            prompt += f"\n\nERROR: Your response was not in correct format. Expected: {expected_format}"
+                            continue
+                        else:
+                            # Last attempt, try to convert anyway
+                            result = [[k, v] for k, v in result.items()]
+                
+                # Validate it's a list
+                if not isinstance(result, list):
+                    if attempt < max_retries:
+                        print(f"  [RETRY] Response not a list, retrying ({attempt + 1}/{max_retries})...")
+                        prompt += f"\n\nERROR: Response must be a JSON array. Expected: {expected_format}"
+                        continue
+                    else:
+                        return []
+                
+                # Handle list of dicts format (e.g., [{'entity_name': 'cloud', 'scale': 0.1}, ...])
+                if result and isinstance(result[0], dict):
+                    if attempt < max_retries:
+                        print(f"  [RETRY] List of dicts format, retrying ({attempt + 1}/{max_retries})...")
+                        prompt += f"\n\nERROR: Response should be array of arrays, not array of dicts. Expected: {expected_format}"
+                        continue
+                    else:
+                        # Last attempt, convert list of dicts to list of lists
+                        converted = []
+                        for item in result:
+                            if isinstance(item, dict):
+                                # Try to extract entity_name and value
+                                if 'entity_name' in item and 'scale' in item:
+                                    converted.append([item['entity_name'], item['scale']])
+                                elif 'entity_name' in item and 'x' in item and 'y' in item:
+                                    converted.append([item['entity_name'], item['x'], item['y']])
+                        result = converted
+                
+                return result
+                
+            except Exception as e:
+                if attempt < max_retries:
+                    print(f"  [RETRY] Parse error, retrying ({attempt + 1}/{max_retries})...")
+                    prompt += f"\n\nERROR: Invalid JSON. Expected: {expected_format}"
+                    continue
+                else:
+                    raise
+        
+        return []
+
     def pre_warm(self) -> None:
         """
         Pre-warm Ollama by sending a simple query to load the model into RAM.
@@ -115,21 +192,16 @@ Format: [entity_name, z_index] where z_index is an integer from 1 to 10.
 Order the array by z-index ascending (background to foreground)."""
 
         try:
-            response = self.client.generate(prompt, json_mode=True)
-            result = json.loads(response)
-            
-            # Handle different response formats
-            # LLM might return a dict with a key like "entities" containing the array
-            if isinstance(result, dict):
-                # Look for the array in dict values
-                for key, value in result.items():
-                    if isinstance(value, list):
-                        result = value
-                        break
+            # Use validation with retry
+            expected_format = "[[entity_name, z_index], ...] where entity_name is string and z_index is integer"
+            result = self._validate_and_retry(prompt, expected_format)
             
             # Validate and normalize
             validated = []
             entity_names = [e['name'] for e in entities]
+            
+            # Track used entity names to prevent duplicates
+            used_names = set()
             
             for item in result:
                 if isinstance(item, list) and len(item) == 2:
@@ -145,21 +217,16 @@ Order the array by z-index ascending (background to foreground)."""
                     except (ValueError, TypeError):
                         continue
                     
-                    # Match entity name (handle suffixes like cloud_1 -> cloud)
-                    matched_name = None
-                    for en in entity_names:
-                        # Strip suffix from LLM response
-                        llm_base = entity_name.split('_')[0] if '_' in entity_name else entity_name
-                        # Strip suffix from entity name
-                        entity_base = en.split('_')[0] if '_' in en else en
-                        if llm_base == entity_base:
-                            matched_name = en
-                            break
-                    
-                    if matched_name:
+                    # Match entity name exactly and prevent duplicates
+                    if entity_name in entity_names and entity_name not in used_names:
                         # Clamp to reasonable range
                         z_index = max(1, min(10, z_index))
-                        validated.append((matched_name, z_index))
+                        validated.append((entity_name, z_index))
+                        used_names.add(entity_name)
+            
+            # Warn if LLM hallucinated entities
+            if len(validated) != len(entity_names):
+                print(f"  [WARNING] LLM returned {len(validated)}/{len(entity_names)} entities. Missing: {set(entity_names) - set([v[0] for v in validated])}")
             
             # Sort by z-index
             validated.sort(key=lambda x: x[1])
@@ -241,29 +308,36 @@ Return ONLY a JSON array like:
 Format: [entity_name, x, y] where x and y are floats."""
 
         try:
-            response = self.client.generate(prompt, json_mode=True)
-            result = json.loads(response)
-            
-            # Handle different response formats
-            if isinstance(result, dict):
-                for key, value in result.items():
-                    if isinstance(value, list):
-                        result = value
-                        break
+            # Use validation with retry
+            expected_format = "[[entity_name, x, y], ...] where entity_name is string, x and y are floats"
+            result = self._validate_and_retry(prompt, expected_format)
             
             # Validate and clamp
             validated = []
+            entity_names = [e['name'] for e in sky_entities]
+            
+            # Track used entity names to prevent duplicates
+            used_names = set()
+            
             for item in result:
                 if isinstance(item, list) and len(item) == 3:
                     entity_name = str(item[0])
                     x = float(item[1])
                     y = float(item[2])
-                    # Clamp to bounds
-                    x = max(-self.frame_width/2 + self.safe_margin_x, 
-                           min(self.frame_width/2 - self.safe_margin_x, x))
-                    y = max(self.sky_y_min + self.safe_margin_y, 
-                           min(self.sky_y_max - self.safe_margin_y, y))
-                    validated.append((entity_name, x, y))
+                    
+                    # Match entity name exactly and prevent duplicates
+                    if entity_name in entity_names and entity_name not in used_names:
+                        # Clamp to bounds
+                        x = max(-self.frame_width/2 + self.safe_margin_x, 
+                               min(self.frame_width/2 - self.safe_margin_x, x))
+                        y = max(self.sky_y_min + self.safe_margin_y, 
+                               min(self.sky_y_max - self.safe_margin_y, y))
+                        validated.append((entity_name, x, y))
+                        used_names.add(entity_name)
+            
+            # Warn if LLM hallucinated entities
+            if len(validated) != len(entity_names):
+                print(f"  [WARNING] LLM returned {len(validated)}/{len(entity_names)} entities. Missing: {set(entity_names) - set([v[0] for v in validated])}")
             
             return validated
             
@@ -352,19 +426,16 @@ Format: [entity_name, x, y] where x and y are floats.
 Characters MUST have y = {self.ground_y}."""
 
         try:
-            response = self.client.generate(prompt, json_mode=True)
-            result = json.loads(response)
-            
-            # Handle different response formats
-            if isinstance(result, dict):
-                for key, value in result.items():
-                    if isinstance(value, list):
-                        result = value
-                        break
+            # Use validation with retry
+            expected_format = "[[entity_name, x, y], ...] where entity_name is string, x and y are floats"
+            result = self._validate_and_retry(prompt, expected_format)
             
             # Validate and clamp
             validated = []
-            entity_names = [e['name'] for e in entities]
+            entity_names = [e['name'] for e in ground_entities]
+            
+            # Track used entity names to prevent duplicates
+            used_names = set()
             
             for item in result:
                 if isinstance(item, list) and len(item) == 3:
@@ -372,25 +443,25 @@ Characters MUST have y = {self.ground_y}."""
                     x = float(item[1])
                     y = float(item[2])
                     
-                    # Match entity name (handle suffixes)
-                    matched_name = None
-                    for en in entity_names:
-                        llm_base = entity_name.split('_')[0] if '_' in entity_name else entity_name
-                        entity_base = en.split('_')[0] if '_' in en else en
-                        if llm_base == entity_base:
-                            matched_name = en
-                            break
-                    
-                    if matched_name:
+                    # Match entity name exactly and prevent duplicates
+                    if entity_name in entity_names and entity_name not in used_names:
                         # Clamp to bounds
                         x = max(-self.frame_width/2 + self.safe_margin_x, 
                                min(self.frame_width/2 - self.safe_margin_x, x))
-                        # Force ground entities to ground line
-                        if any(e['name'] == matched_name and e['zone'] == 'ground' for e in entities):
-                            y = self.ground_y
-                        else:
-                            y = max(self.ground_y_min, min(self.ground_y_max, y))
-                        validated.append((matched_name, x, y))
+                        # Force ALL ground entities to ground line
+                        y = self.ground_y
+                        validated.append((entity_name, x, y))
+                        used_names.add(entity_name)
+            
+            # Add missing entities with default x position on ground line
+            missing = set(entity_names) - set([v[0] for v in validated])
+            for missing_name in missing:
+                # Place at center x, ground y
+                validated.append((missing_name, 0.0, self.ground_y))
+            
+            # Warn if LLM hallucinated entities
+            if len(validated) != len(entity_names):
+                print(f"  [WARNING] LLM returned {len(validated) - len(missing)}/{len(entity_names)} entities. Added missing: {missing}")
             
             return validated
             
@@ -473,19 +544,16 @@ Return ONLY a JSON array like:
 Format: [entity_name, scale] where scale is a float."""
 
         try:
-            response = self.client.generate(prompt, json_mode=True)
-            result = json.loads(response)
-            
-            # Handle different response formats
-            if isinstance(result, dict):
-                for key, value in result.items():
-                    if isinstance(value, list):
-                        result = value
-                        break
+            # Use validation with retry
+            expected_format = "[[entity_name, scale], ...] where entity_name is string and scale is float"
+            result = self._validate_and_retry(prompt, expected_format)
             
             # Validate and clamp
             validated = []
             entity_names = [e['name'] for e in entities]
+            
+            # Track used entity names to prevent duplicates
+            used_names = set()
             
             for item in result:
                 if isinstance(item, list) and len(item) == 2:
@@ -501,19 +569,16 @@ Format: [entity_name, scale] where scale is a float."""
                     except (ValueError, TypeError):
                         continue
                     
-                    # Match entity name (handle suffixes)
-                    matched_name = None
-                    for en in entity_names:
-                        llm_base = entity_name.split('_')[0] if '_' in entity_name else entity_name
-                        entity_base = en.split('_')[0] if '_' in en else en
-                        if llm_base == entity_base:
-                            matched_name = en
-                            break
-                    
-                    if matched_name:
+                    # Match entity name exactly and prevent duplicates
+                    if entity_name in entity_names and entity_name not in used_names:
                         # Clamp to reasonable range
                         scale = max(0.05, min(0.30, scale))
-                        validated.append((matched_name, scale))
+                        validated.append((entity_name, scale))
+                        used_names.add(entity_name)
+            
+            # Warn if LLM hallucinated entities
+            if len(validated) != len(entity_names):
+                print(f"  [WARNING] LLM returned {len(validated)}/{len(entity_names)} entities. Missing: {set(entity_names) - set([v[0] for v in validated])}")
             
             return validated
             
@@ -586,30 +651,29 @@ Return ONLY JSON array of entities needing adjustment:
 Format: [entity_name, x, y]. Empty array if no collisions."""
 
         try:
-            # Chunk 7 is complex collision detection - use longer timeout (2 minutes)
-            response = self.client.generate(prompt, json_mode=True, timeout=180)
-            result = json.loads(response)
-            
-            # Handle different response formats
-            if isinstance(result, dict):
-                for key, value in result.items():
-                    if isinstance(value, list):
-                        result = value
-                        break
+            # Use validation with retry
+            expected_format = "[[entity_name, x, y], ...] where entity_name is string, x and y are floats"
+            result = self._validate_and_retry(prompt, expected_format)
             
             # Validate and clamp
             validated = []
+            entity_names = [e['name'] for e in entities]
+            
             for item in result:
                 if isinstance(item, list) and len(item) == 3:
                     entity_name = str(item[0])
                     x = float(item[1])
                     y = float(item[2])
-                    # Clamp to bounds
-                    x = max(-self.frame_width/2 + self.safe_margin_x, 
-                           min(self.frame_width/2 - self.safe_margin_x, x))
-                    y = max(self.ground_y_min, 
-                           min(self.sky_y_max, y))
-                    validated.append((entity_name, x, y))
+                    # Match entity name exactly
+                    if entity_name in entity_names:
+                        x = max(-self.frame_width/2 + self.safe_margin_x, 
+                               min(self.frame_width/2 - self.safe_margin_x, x))
+                        # Force ground entities to stay on ground line
+                        if any(e['name'] == entity_name and e['zone'] == 'ground' for e in entities):
+                            y = self.ground_y
+                        y = max(self.ground_y_min, 
+                               min(self.sky_y_max, y))
+                        validated.append((entity_name, x, y))
             
             return validated
             

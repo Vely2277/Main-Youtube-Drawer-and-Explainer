@@ -429,8 +429,8 @@ def main() -> int:
         output_name = f"{scene_spec_path.stem}_{timestamp}.mp4"
         output_path = args.output.resolve() if args.output else DEFAULT_OUTPUT_DIR / output_name
         config.output_file = str(output_path)
-        scene_spec = load_scene_spec_from_json(scene_spec_path)
-        scene = SpecSvgScene(asset_dir=asset_dir, scene_spec=scene_spec)
+        # Use JsonSvgScene since scene_generator outputs simple JSON format
+        scene = JsonSvgScene(asset_dir=asset_dir, scene_json=scene_spec_path)
     elif args.scene_json:
         scene_json = args.scene_json.resolve()
         if not scene_json.is_file():

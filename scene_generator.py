@@ -68,25 +68,17 @@ class SceneGenerator:
             # Pre-warm Ollama to load model into RAM
             self.spatial_reasoner.pre_warm()
 
-            # Convert entities to dict format for LLM (use original names without suffixes)
+            # Convert entities to dict format for LLM (keep suffixed names for uniqueness)
             entity_dicts = []
-            name_mapping = {}  # Map original name to expanded names
             
             for e in expanded_entities:
-                # Remove suffix for LLM (e.g., "cloud_1" -> "cloud")
-                original_name = e.name.split('_')[0] if '_' in e.name else e.name
-                
+                # Keep full name with suffix for LLM (e.g., "cloud_1", "cloud_2")
                 entity_dicts.append({
-                    "name": original_name,
+                    "name": e.name,
                     "zone": e.zone,
                     "category": e.category,
                     "scale": e.default_scale,
                 })
-                
-                # Track mapping
-                if original_name not in name_mapping:
-                    name_mapping[original_name] = []
-                name_mapping[original_name].append(e.name)
 
             # Chunk 3: Spatial relationships (z-index)
             show_loader("Chunk 3: Determining z-index ordering")
@@ -113,25 +105,24 @@ class SceneGenerator:
             show_loader("Chunk 7: Resolving collisions")
             final_coords = self.spatial_reasoner.chunk7_collision_resolution(entity_dicts, all_coords, scales)
             print(f"  Collisions: {len(final_coords)} entities checked")
+            
+            # If chunk7 returned empty or fewer entities, use original coordinates
+            if not final_coords or len(final_coords) < len(all_coords):
+                print(f"  [INFO] Using original coordinates (chunk7 returned {len(final_coords)} entities)")
+                final_coords = all_coords
 
-            # Apply LLM results to entities (map back from original names to expanded names)
+            # Apply LLM results to entities (direct mapping since we use suffixed names)
             coord_map = {}
             for name, x, y in final_coords:
-                if name in name_mapping:
-                    for expanded_name in name_mapping[name]:
-                        coord_map[expanded_name] = (x, y)
+                coord_map[name] = (x, y)
             
             z_map = {}
             for name, z in z_indices:
-                if name in name_mapping:
-                    for expanded_name in name_mapping[name]:
-                        z_map[expanded_name] = z
+                z_map[name] = z
             
             scale_map = {}
             for name, scale in scales:
-                if name in name_mapping:
-                    for expanded_name in name_mapping[name]:
-                        scale_map[expanded_name] = scale
+                scale_map[name] = scale
 
             for e in expanded_entities:
                 if e.name in coord_map:
@@ -216,6 +207,12 @@ class SceneGenerator:
         for layout in layouts:
             entity = layout.entity
 
+            # For ground entities, force y to ground_y (JsonSvgScene will use this for bottom anchor)
+            if entity.zone == "ground":
+                layout_y = GROUND_Y
+            else:
+                layout_y = layout.y
+
             # Build element dict for render_video.py
             element_dict = {
                 "asset": entity.asset,
@@ -225,7 +222,7 @@ class SceneGenerator:
                 "anchor": layout.anchor,
                 "width": layout.width,
                 "x": layout.x,
-                "y": layout.y,
+                "y": layout_y,
                 "z": layout.z_index,
                 "scale_fraction": entity.default_scale,
                 "animation": "draw_border",
@@ -237,15 +234,15 @@ class SceneGenerator:
             if entity.motion_type == "translate_y":
                 element_dict["motion_group"] = f"{entity.name}_motion"
                 element_dict["target_x"] = layout.x
-                element_dict["target_y"] = layout.y + (1.5 * entity.motion_speed)
+                element_dict["target_y"] = layout_y + (1.5 * entity.motion_speed)
             elif entity.motion_type == "translate_x":
                 element_dict["motion_group"] = f"{entity.name}_motion"
                 element_dict["target_x"] = layout.x + (1.0 * entity.motion_speed)
-                element_dict["target_y"] = layout.y
+                element_dict["target_y"] = layout_y
             elif entity.motion_type == "rotate":
                 element_dict["motion_group"] = f"{entity.name}_motion"
                 element_dict["target_x"] = layout.x
-                element_dict["target_y"] = layout.y
+                element_dict["target_y"] = layout_y
 
             # Add containment info for composition system
             if layout.contained_in:

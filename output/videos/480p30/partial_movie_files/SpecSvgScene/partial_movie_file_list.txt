@@ -1,0 +1,2 @@
+# This file records the segment order used by Manim.
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/480p30/partial_movie_files/SpecSvgScene/c4babf48e20c4ec0363e680414dfb2d8f0fced07cf6642d580741dd59198eb40.mp4'
