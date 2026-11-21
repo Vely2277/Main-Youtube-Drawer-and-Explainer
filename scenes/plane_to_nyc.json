@@ -1,0 +1,117 @@
+{
+  "name": "plane_to_nyc_passengers",
+  "duration": 14,
+  "background": "#FFFFFF",
+  "ground_y": -2.35,
+  "elements": [
+    {
+      "asset": "tabler/outline/cloud.svg",
+      "x": -3.0,
+      "y": 2.5,
+      "z": 0,
+      "width": 1.8,
+      "animation": "create",
+      "run_time": 1.0,
+      "wait": 0.1
+    },
+    {
+      "asset": "tabler/outline/cloud.svg",
+      "x": 1.0,
+      "y": 2.8,
+      "z": 0,
+      "width": 2.2,
+      "animation": "create",
+      "run_time": 1.0,
+      "wait": 0.1
+    },
+    {
+      "asset": "tabler/outline/cloud.svg",
+      "x": 4.0,
+      "y": 2.2,
+      "z": 0,
+      "width": 1.6,
+      "animation": "create",
+      "run_time": 1.0,
+      "wait": 0.1
+    },
+    {
+      "asset": "tabler/outline/plane-inflight.svg",
+      "x": -2.0,
+      "y": 0.5,
+      "z": 2,
+      "width": 3.5,
+      "motion_group": "plane",
+      "target_x": 3.0,
+      "animation": "draw_border",
+      "run_time": 2.0,
+      "wait": 0.1
+    },
+    {
+      "asset": "open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-long-afro-smile-none.svg",
+      "x": -1.8,
+      "y": 0.3,
+      "z": 3,
+      "width": 0.7,
+      "motion_group": "plane",
+      "target_x": 3.2,
+      "animation": "draw_border",
+      "run_time": 1.5,
+      "wait": 0.1
+    },
+    {
+      "asset": "open_peeps/templates_sitting/peep-sitting-sitting-closed-legs-1-flat-top-smile-none.svg",
+      "x": -1.5,
+      "y": 0.1,
+      "z": 3,
+      "width": 0.7,
+      "motion_group": "plane",
+      "target_x": 3.5,
+      "animation": "draw_border",
+      "run_time": 1.5,
+      "wait": 0.1
+    },
+    {
+      "asset": "open_peeps/templates_sitting/peep-sitting-sitting-one-leg-up-2-flat-top-smile-teeth-gap-none.svg",
+      "x": -1.2,
+      "y": -0.1,
+      "z": 3,
+      "width": 0.7,
+      "motion_group": "plane",
+      "target_x": 3.8,
+      "animation": "draw_border",
+      "run_time": 1.5,
+      "wait": 0.1
+    },
+    {
+      "asset": "tabler/outline/building-skyscraper.svg",
+      "x": 4.5,
+      "anchor": "bottom",
+      "z": 1,
+      "width": 2.5,
+      "animation": "draw_border",
+      "run_time": 2.0,
+      "wait": 0.1
+    },
+    {
+      "asset": "tabler/outline/building-skyscraper.svg",
+      "x": 5.5,
+      "anchor": "bottom",
+      "z": 1,
+      "width": 2.0,
+      "animation": "draw_border",
+      "run_time": 2.0,
+      "wait": 0.1
+    },
+    {
+      "asset": "tabler/outline/building-skyscraper.svg",
+      "x": 6.5,
+      "anchor": "bottom",
+      "z": 1,
+      "width": 2.2,
+      "animation": "draw_border",
+      "run_time": 2.0,
+      "wait": 0.1
+    }
+  ],
+  "final_wait": 2.0
+}

@@ -1,0 +1,10 @@
+# This file records the segment order used by Manim.
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/e504f4259d4c6eeaa48a15de7823f6d03a6033c8046af1b7f56a661d6f499260.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/f4de6474246ac58c6a93875a6b4c706d686234bb6f12f451f4811edb2bdf8030.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/d66034f6c1ae2885eed556b492a60f550e4598f73ed6c905c7e7a52b8b3d5dac.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/7e516d176ed5fb88c53d5efa8ef6846ef568949c66753e9862b4d0bc164b2e95.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/6df86b33fc4acb851468276e28908305e142200acaf64eafeaa9863a981686fa.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/a9172d3ce4c490ca2520236a88cca72d545589d3a108c19b59b62b47266f1c89.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/84a91951883be3412fc5f77eb2ffa4f51772200a0637b7a1779a1e02c5fe8897.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/370a0b38adbf05dca2430043d6ed2eca72d57779ed68eef2a8c2838505892c65.mp4'
+file 'file:C:/Users/USER/Main Youtube Drawer and Explainer/output/videos/720p30/partial_movie_files/SpecSvgScene/5756a476984a5f6cf499e877dfd7dd0a9b2c2f1c2124839c1851d0e01549c95b.mp4'

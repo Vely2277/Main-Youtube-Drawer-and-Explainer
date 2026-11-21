@@ -1,0 +1,52 @@
+{
+  "scene_name": "Two Buildings Next To Each",
+  "description": "two buildings next to each other with a tree between them",
+  "ground_y": -2.35,
+  "elements": [
+    {
+      "asset": "tabler/outline/building-skyscraper.svg",
+      "role": "structure",
+      "name": "building_1",
+      "zone": "ground",
+      "anchor": "bottom",
+      "width": 3.0000000000000004,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.2,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    },
+    {
+      "asset": "tabler/outline/building-skyscraper.svg",
+      "role": "structure",
+      "name": "building_2",
+      "zone": "ground",
+      "anchor": "bottom",
+      "width": 3.0000000000000004,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.2,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    },
+    {
+      "asset": "tabler/outline/tree.svg",
+      "role": "structure",
+      "name": "tree",
+      "zone": "ground",
+      "anchor": "bottom",
+      "width": 1.5,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.15,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    }
+  ]
+}

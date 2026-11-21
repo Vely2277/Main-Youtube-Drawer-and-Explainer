@@ -1,0 +1,67 @@
+{
+  "scene_name": "Three Passengers Inside The Plane",
+  "description": "three passengers inside the plane looking out windows",
+  "ground_y": -2.35,
+  "elements": [
+    {
+      "asset": "open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-long-afro-smile-none.svg",
+      "role": "character",
+      "name": "passenger_1",
+      "zone": "ground",
+      "anchor": "bottom",
+      "width": 0.96,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.12,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    },
+    {
+      "asset": "open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-long-afro-smile-none.svg",
+      "role": "character",
+      "name": "passenger_2",
+      "zone": "ground",
+      "anchor": "bottom",
+      "width": 0.96,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.12,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    },
+    {
+      "asset": "open_peeps/templates_sitting/peep-sitting-sitting-crossed-legs-long-afro-smile-none.svg",
+      "role": "character",
+      "name": "passenger_3",
+      "zone": "ground",
+      "anchor": "bottom",
+      "width": 0.96,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.12,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    },
+    {
+      "asset": "tabler/outline/plane-inflight.svg",
+      "role": "sky_entity",
+      "name": "plane",
+      "zone": "sky",
+      "anchor": "center",
+      "width": 3.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "scale_fraction": 0.15,
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "wait": 0.15
+    }
+  ]
+}

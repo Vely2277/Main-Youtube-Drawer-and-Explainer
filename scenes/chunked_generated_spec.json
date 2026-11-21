@@ -1,0 +1,59 @@
+{
+  "scene_name": "Generated Scene",
+  "entities": [
+    {
+      "asset": "lucide/cloud-backup.svg",
+      "role": "sky_entity",
+      "zone": "sky",
+      "anchor": "center",
+      "scale_fraction": 0.15,
+      "x_offset": 0,
+      "y_offset": 2,
+      "motion_type": "translate_y",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 1,
+      "motion_target_y": 3.5,
+      "motion_run_time": 2.0
+    },
+    {
+      "asset": "lucide/chinese-character.svg",
+      "role": "character",
+      "zone": "ground",
+      "anchor": "center",
+      "scale_fraction": 0.12,
+      "x_offset": -2,
+      "y_offset": -2,
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 5
+    },
+    {
+      "asset": "lucide/cloud-backup.svg",
+      "role": "sky_entity",
+      "zone": "sky",
+      "anchor": "center",
+      "scale_fraction": 0.15,
+      "x_offset": 0,
+      "y_offset": 2,
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 1
+    },
+    {
+      "asset": "lucide/cloud-backup.svg",
+      "role": "sky_entity",
+      "zone": "sky",
+      "anchor": "center",
+      "scale_fraction": 0.15,
+      "x_offset": 0,
+      "y_offset": 2,
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 1
+    }
+  ]
+}

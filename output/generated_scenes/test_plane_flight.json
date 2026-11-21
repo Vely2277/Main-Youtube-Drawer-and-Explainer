@@ -1,0 +1,81 @@
+{
+  "scene_name": "Plane Flight",
+  "entities": [
+    {
+      "asset": "tabler/outline/plane-inflight.svg",
+      "role": "sky_entity",
+      "zone": "sky",
+      "anchor": "center",
+      "scale_fraction": 0.15,
+      "motion_group": "flight",
+      "motion_type": "translate_y",
+      "motion_target_y": 1.5,
+      "motion_run_time": 2.0,
+      "animation": "draw_border",
+      "run_time": 1.5,
+      "z_index": 10
+    },
+    {
+      "asset": "open_peeps/templates_standing/peep-standing-standing-blazer-1-buns-smile-teeth-gap-none.svg",
+      "role": "character",
+      "zone": "ground",
+      "anchor": "bottom",
+      "scale_fraction": 0.25,
+      "motion_group": "people",
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 5
+    },
+    {
+      "asset": "open_peeps/templates_standing/peep-standing-standing-crossed-arms-1-bun-smile-big-none.svg",
+      "role": "character",
+      "zone": "ground",
+      "anchor": "bottom",
+      "scale_fraction": 0.25,
+      "motion_group": "people",
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 5
+    },
+    {
+      "asset": "open_peeps/templates_standing/peep-standing-standing-pointing-finger-1-bun-2-calm-none.svg",
+      "role": "character",
+      "zone": "ground",
+      "anchor": "bottom",
+      "scale_fraction": 0.25,
+      "motion_group": "people",
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 5
+    },
+    {
+      "asset": "tabler/outline/cloud.svg",
+      "role": "sky_entity",
+      "zone": "sky",
+      "anchor": "center",
+      "scale_fraction": 0.15,
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 1,
+      "x_offset": 0.5,
+      "y_offset": 0.5
+    },
+    {
+      "asset": "tabler/outline/sun.svg",
+      "role": "sky_entity",
+      "zone": "sky",
+      "anchor": "center",
+      "scale_fraction": 0.15,
+      "motion_type": "static",
+      "animation": "draw_border",
+      "run_time": 1.0,
+      "z_index": 0,
+      "x_offset": 1.0,
+      "y_offset": 1.0
+    }
+  ]
+}
